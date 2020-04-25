@@ -10,6 +10,7 @@
    #TabsToolbar .tabbrowser-tab .tab-line {
        visibility: hidden;
 }
+/* Prevent URL bar from changing size */
 /* based on https://old.reddit.com/comments/fwhlva//fmolndz */
 #urlbar[breakout][breakout-extend]:not([open]) {
 top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
