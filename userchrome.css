@@ -37,6 +37,19 @@
 
 /*** END Firefox 77 (June 2, 2020) Override URL bar enlargement ***/
 
+/* ROUNDED TABS*/
+.tab-background {
+  border-radius: 20px 20px 0px 0px !important;
+  border-image: none !important;
+}
+.tab-line {
+  display: none;
+}
+/* remove colored line above each tab */
+   #TabsToolbar .tabbrowser-tab .tab-line {
+       visibility: hidden;
+}
+
 /* NAVBAR: Highlight URL based on security */
 
 #urlbar {
