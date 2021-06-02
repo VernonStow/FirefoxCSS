@@ -5,3 +5,5 @@ To unlock custom CSS usage in Firefox 69 and newer:
 about:config > toolkit.legacyUserProfileCustomizations.stylesheets > true
 
 To use this file, please create a folder called "chrome" in your Firefox profile and place a copy of the userchrome.css file in it, then restart Firefox. The changes can be undone by deleting or renaming the file and restarting Firefox.
+
+Note: this file is not currently recommended for Firefox Proton (89+) because the tab rounding is excessive and the URL bar colors are tinged with gray.
