@@ -1,5 +1,5 @@
 # FirefoxCSS
-My userchrome.css file to make Firefox Quantum look better with rounded tabs, a fixed-size URL bar, and changing URL bar color to indicate website security level. All scripts were found on the web. Credit to https://www.userchrome.org/ for script preventing size change.
+My userchrome.css file to make Firefox Quantum look better with a fixed-size URL bar and changing URL bar color to indicate website security level. All scripts were found on the web. Credit to https://www.userchrome.org/ for script preventing size change.
 
 To unlock custom CSS usage in Firefox 69 and newer:
 about:config > toolkit.legacyUserProfileCustomizations.stylesheets > true
